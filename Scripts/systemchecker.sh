@@ -1,6 +1,6 @@
 # Written by Kenneth
 # This script will return the system information: for our VMs
-/sbin/mount.cifs //10.20.30.20/Departments/InformationTechnology/KenScripts /appData/newScripts/ -o username=coxNet2,password=w@lk3rp@ss,domain=Callisto
+/sbin/mount.cifs //(insert IP)/Departments/InformationTechnology/KenScripts /appData/newScripts/ -o username=test,password=w@test2,domain=testcase
 # -Hostname information:
 echo -e "\e[31;43m***** HOSTNAME INFORMATION *****\e[0m"
 hostname
