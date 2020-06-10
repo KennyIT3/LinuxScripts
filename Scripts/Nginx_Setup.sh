@@ -1,31 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@KennyIT3
-rn4ir /
-sysadmin-shell-scripts
-
-2
-4
-
-    18
-
-Code
-Issues 0
-Pull requests 0
-Actions
-Projects 0
-Wiki
-Security 0
-
-    Insights
-
-sysadmin-shell-scripts/installation_scripts/install_nginx.sh
-rahul fixed typos in comments dff10af on Aug 31, 2017
-executable file 98 lines (80 sloc) 3.05 KB
 #!/bin/bash
 #################################################
 #                                               #
