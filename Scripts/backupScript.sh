@@ -15,6 +15,6 @@ tar czf /appData/disasterRecovery/Backups/SnipeIT/snipeITbackup.tar.gz -C /root/
 
 rm /root/backupScripts/osTicketbackup.sql;
 rm /root/backupScripts/snipeITbackup.sql;
-dd
+
 # Unmount File Server Directory
 umount /appData/disasterRecovery/Backups;
