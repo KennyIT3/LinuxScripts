@@ -1,2 +1,2 @@
 # LinuxScripts
-SysAdmin Scripts 
+SysAdmin Scripts for testing purposes in lab environment
