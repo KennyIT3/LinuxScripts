@@ -1,0 +1,54 @@
+DEV Tools for ElasticSearch
+
+GET _cluster/health
+
+PUT _cluster/settings
+{
+  "persistent": {
+    "cluster.routing.allocation.enable": "primaries"
+  }
+}
+
+
+POST _flush/synced
+
+PUT _cluster/settings
+{
+  "persistent": {
+    "cluster.routing.allocation.enable": "all"
+  }
+}
+
+GET _cat/indices/?help
+# To view the index 
+
+GET _cat/indices/winlogbeat-7.11.*?v
+# To view 
+
+GET _cat/tasks
+# View task running 
+
+GET _tasks/Ah0CyPo7Sn2KPm7R9KLYbA:98843755
+# To view details of a specific that is running 
+
+# To see status of the task running 
+
+GET _cat/shards?help
+
+GET _cat/shards?s=st
+
+GET _cat/shards?s=st&h=i,st,unassigned.reason
+
+GET _cat/node
+
+GET _cat/allocation?help
+
+GET _cluster/allocation/explain?pretty
+# Explains the cluster allocation for nodes 
+
+
+?help
+# Helps you to view what fields/rows are in 
+
+GET _template/cylance_ecs
+# To view temple of product we have 
