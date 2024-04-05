@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 Path="/data01/Server/DN1T/Export/*"
 NEWEST=$(find $Path  -type d -prune -exec ls -d {} \; | tail -n 1)   #Plus the latest folder 
@@ -17,3 +17,4 @@ elif [ -z "${NEWEST}" ] ; then
 else
     echo "Exiting"
     exit 0
+fi
